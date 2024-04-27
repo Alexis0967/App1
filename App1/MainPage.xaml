@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage" Title="Numeros">
+    <StackLayout BackgroundColor="DarkOrange">
+
+        <Label Text="JK Rowling" TextColor="Purple"
+               HorizontalTextAlignment="Center"
+               Margin="10"
+               />
+        <Frame VerticalOptions="FillAndExpand" CornerRadius="30" Margin="20" HasShadow="True">
+            <StackLayout>
+
+<Image Source="icon.png" />
+
+                <Label Text="jiosjfd" FontSize="20"/>
+                <Button Text="Conoce mejor del personaje" HorizontalOptions="Center"
+                BackgroundColor="Red" FontSize="20"
+                        CornerRadius="30"
+                        />
+                
+            </StackLayout>
+            
+        </Frame>
+
+    </StackLayout>
+</ContentPage>
